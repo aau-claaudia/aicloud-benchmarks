@@ -1,0 +1,1 @@
+srun -w nv-ai-04 -p batch -G 0 --pty singularity exec --nv /home/its.aau.dk/cc11gz/containers/pytorch_23.10.sif python3 /home/its.aau.dk/cc11gz/sysadm/tests/scripts/torch_benchmark.py

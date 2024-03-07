@@ -1,0 +1,1 @@
+srun -w nv-ai-02 -p batch -G 0 --pty singularity exec --nv pytorch_23.10.sif python3 benchmark_script.py
