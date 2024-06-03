@@ -17,7 +17,7 @@ if torch.cuda.is_available():
     x = torch.randn(matrix_size, matrix_size)
     y = torch.randn(matrix_size, matrix_size)
     
-    CPU Benchmark
+    # CPU Benchmark
     print("")
     print("-- CPU Benchmarks -", cpu_iterations, "iterations")
     for i in range(cpu_iterations):
